@@ -4,7 +4,7 @@ pipeline {
     stage('Send Mail') {
       steps {
         script {
-         def code = load 'groovy/notificationManager.groovy'
+         def code = load 'notificationManager.groovy'
          code.notifyEmail("SUCCESSFUL","yahyaozturk@gmail.com")
         }
       }
