@@ -1,3 +1,4 @@
+def externalMethod
 pipeline {
   agent any
   stages {
