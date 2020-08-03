@@ -53,3 +53,5 @@ def notifyEmail(buildStatus, emailRecipients) {
         println "ERROR SENDING EMAIL ${e}"
     }
 }
+
+return this
